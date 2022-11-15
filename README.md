@@ -1,9 +1,12 @@
+This was an independent project that was assigned in my NSS Data Analytics bootcamp.
+
+
 # Nashville Traffic Accidents
 
-For this exercise, you have been provided a dataset of traffic accidents that occurred in Davidson County which was retrieved from https://data.nashville.gov/Police/Traffic-Accidents/6v6w-hpcw. 
+For this exercise, you have been provided a dataset of traffic accidents that occurred in Davidson County which was retrieved from https://data.nashville.gov/Police/Traffic-Accidents/6v6w-hpcw.
 
 This spreadsheet has been divided into the following sheets:
-* Accidents: Contains the raw data for each accident. For a description of each column, you can see the Metadata, available here: https://data.nashville.gov/api/views/6v6w-hpcw/files/3af9281b-fa4f-4044-83f8-1b9a46cc6e95?download=true&filename=Traffic-Accidents-Metadata-v2.pdf. 
+* Accidents: Contains the raw data for each accident. For a description of each column, you can see the Metadata, available here: https://data.nashville.gov/api/views/6v6w-hpcw/files/3af9281b-fa4f-4044-83f8-1b9a46cc6e95?download=true&filename=Traffic-Accidents-Metadata-v2.pdf.
 * Analysis: This sheet will hold most of your answers.
 * Zero Car Crashes: This sheet will be used in question 3.
 * Collision Types: Contains the text description of each collision type. You will fill in your answers for question 5 here.
@@ -32,6 +35,6 @@ b. Add one more new column, Weekday, and use the WEEKDAY function to extract out
 
 8. Do the same for the year and day of the week. What stands out?
 
-9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
+9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column.
 
-10. Which interstate has the most accidents between I-24, I-40, I-65, and I-440? Answer this by counting the number of accidents that contain the strings "I 24", "I 40", "I 65", or "I 440" in their Street Address. Hint: You may need to make use of [wildcards](https://support.microsoft.com/en-us/office/using-wildcard-characters-in-searches-ef94362e-9999-4350-ad74-4d2371110adb) in combination with the CONCAT function to answer this. Then do the same but search for "I24", "I40", "I65", and "I440" and then "I-24", "I-40", "I-65", and "I-440". Sum the results to get a total count. Bonus: Rather than doing three separate counts and adding, get the total count using a single formula for each interstate. 
+10. Which interstate has the most accidents between I-24, I-40, I-65, and I-440? Answer this by counting the number of accidents that contain the strings "I 24", "I 40", "I 65", or "I 440" in their Street Address. Hint: You may need to make use of [wildcards](https://support.microsoft.com/en-us/office/using-wildcard-characters-in-searches-ef94362e-9999-4350-ad74-4d2371110adb) in combination with the CONCAT function to answer this. Then do the same but search for "I24", "I40", "I65", and "I440" and then "I-24", "I-40", "I-65", and "I-440". Sum the results to get a total count. Bonus: Rather than doing three separate counts and adding, get the total count using a single formula for each interstate.
